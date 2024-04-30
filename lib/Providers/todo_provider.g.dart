@@ -1,24 +1,25 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'counter_provider.dart';
+part of 'todo_provider.dart';
 
 // **************************************************************************
 // RiverpodGenerator
 // **************************************************************************
 
-String _$counterHash() => r'eed4b54af591bd6ea67ffe5bf8389904e415feca';
+String _$todosHash() => r'6d85c8aef0e5df167ee0804d5e0224053c081faf';
 
-/// See also [Counter].
-@ProviderFor(Counter)
-final counterProvider = AutoDisposeNotifierProvider<Counter, int>.internal(
-  Counter.new,
-  name: r'counterProvider',
+/// See also [Todos].
+@ProviderFor(Todos)
+final todosProvider =
+    AutoDisposeNotifierProvider<Todos, List<TodoModel>>.internal(
+  Todos.new,
+  name: r'todosProvider',
   debugGetCreateSourceHash:
-      const bool.fromEnvironment('dart.vm.product') ? null : _$counterHash,
+      const bool.fromEnvironment('dart.vm.product') ? null : _$todosHash,
   dependencies: null,
   allTransitiveDependencies: null,
 );
 
-typedef _$Counter = AutoDisposeNotifier<int>;
+typedef _$Todos = AutoDisposeNotifier<List<TodoModel>>;
 // ignore_for_file: type=lint
 // ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member
